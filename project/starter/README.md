@@ -21,3 +21,4 @@ step_trainer/
 ```
 
 **Note:** `step_trainer/curated/` contains the data files for the `machine_learning_curated` table.
+

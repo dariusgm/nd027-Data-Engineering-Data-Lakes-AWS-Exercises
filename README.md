@@ -35,3 +35,11 @@ Each `lesson` folder contains an `exercises` folder. This `exercises` folder sho
 ### Project Folder
 
 The `project` folder should contain all files and instructions necessary for setup. If possible, a set of instructions should be provided for both Udacity workspaces and a way to work locally (for both MacOS and Windows OS). At a minimum, one set of instructions should be provided. A `README` template has been provided in the project folder. This template layout should be used to write your README.
+
+Create virtual environment
+```bash
+python3 -m venv ./venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+```
+Execute `python3 push_to_s3.py`
